@@ -114,7 +114,7 @@ class Book {
       Store.addBook(book);
   
       // Show success message
-      UI.showAlert('Book Added', 'success');
+      UI.showAlert('URL Added', 'success');
   
       // Clear fields
       UI.clearFields();
@@ -130,5 +130,5 @@ class Book {
     Store.removeBook(e.target.parentElement.previousElementSibling.textContent);
   
     // Show success message
-    UI.showAlert('Book Removed', 'success');
+    UI.showAlert('URL Removed', 'success');
   });
